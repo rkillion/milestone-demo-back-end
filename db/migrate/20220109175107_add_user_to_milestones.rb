@@ -1,0 +1,5 @@
+class AddUserToMilestones < ActiveRecord::Migration[6.1]
+  def change
+    add_reference :milestones, :user, null: false, foreign_key: true
+  end
+end
