@@ -16,7 +16,6 @@ class MilestonesController < ApplicationController
   # POST /milestones
   def create
     @milestone = Milestone.new(milestone_params)
-
     if @milestone.save
       render json: @milestone, status: :created, location: @milestone
     else
@@ -46,6 +45,6 @@ class MilestonesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def milestone_params
-      params.require(:milestone).permit(:title, :date, :action_required)
+      params.require(:milestone).permit(:title, :date, :action_required, :user_id)
     end
 end
