@@ -1,3 +1,3 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :name, :institution, :notifications, :milestones, :assigned_milestones
+  attributes :id, :name, :institution, :notifications, :created_milestones, :assigned_milestones
 end

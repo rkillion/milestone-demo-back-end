@@ -11,27 +11,3 @@ Open the server using the command below which also defines the port you want to 
 `rails s -p 4000`
 
 The front-end is set up to make server calls to http://localhost:4000 so if you use 4000, you are ready to go. If not, follow the instructions on the front end to change the API address.
-
-
-<!-- This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ... -->
